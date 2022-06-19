@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tienda online</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="page-nav">
+			<h1>Mi tienda</h1>
+			<button id="checkout" class="button-checkout" onclick="pay()">
+				pagar
+			</button>
+		</div>
+		<div class="page-content">
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-1.jpg" alt="" />
+				<h1>$50</h1>
+				<button class="button-add" onclick="add('product-1', 50)">
+					Agregar
+				</button>
+			</div>
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-2.jpg" alt="" />
+				<h1>$300</h1>
+				<button class="button-add" onclick="add('product-2', 300)">
+					Agregar
+				</button>
+			</div>
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-3.jpg" alt="" />
+				<h1>$250</h1>
+				<button class="button-add" onclick="add('product-3', 250)">
+					Agregar
+				</button>
+			</div>
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-4.jpg" alt="" />
+				<h1>$200</h1>
+				<button class="button-add" onclick="add('product-4', 200)">
+					Agregar
+				</button>
+			</div>
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-5.jpg" alt="" />
+				<h1>$10</h1>
+				<button class="button-add" onclick="add('product-5', 10)">
+					Agregar
+				</button>
+			</div>
+			<div class="product-container">
+				<h3>nombre</h3>
+				<img src="./assets/images/product-6.jpg" alt="" />
+				<h1>$650</h1>
+				<button class="button-add" onclick="add('product-6', 650)">
+					Agregar
+				</button>
+			</div>
+		</div>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
